@@ -83,7 +83,8 @@ class ProjectScreen extends StatelessWidget {
             const SizedBox(height: 6),
 
             Text(
-              "Tech: ${projects[index]["technologies"]}",
+              "Tech: ${projects[index]
+              ["technologies"]}",
               style: const TextStyle(color: Colors.black54),
             ),
           ],
