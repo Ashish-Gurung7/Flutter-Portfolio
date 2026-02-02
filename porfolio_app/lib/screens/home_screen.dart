@@ -14,28 +14,28 @@ class HomeScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         actions: [
           TextButton(
-            onPressed: () => Navigator.push(
+            onPressed: () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (_) => HomeScreen()),
             ),
             child: Text("Home"),
           ),
           TextButton(
-            onPressed: () => Navigator.push(
+            onPressed: () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (_) => AboutScreen()),
             ),
             child: Text("About me"),
           ),
           TextButton(
-            onPressed: () => Navigator.push(
+            onPressed: () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (_) => ProjectScreen()),
             ),
             child: Text("Projects"),
           ),
           TextButton(
-            onPressed: () => Navigator.push(
+            onPressed: () => Navigator.pushReplacement(
               context,
               MaterialPageRoute(builder: (_) => ContactScreen()),
             ),
